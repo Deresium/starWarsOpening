@@ -1,9 +1,9 @@
+/* body bloc is an observer and 50px away from the observable */
 body{
     background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* body bloc is an observer and 50px away from the observable */
     perspective: 50px;
 }
 
