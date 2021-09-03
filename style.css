@@ -1,0 +1,48 @@
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    perspective: 50px;
+}
+
+.perspectiveBloc{
+    height: 100vh;
+    width: 80%;
+    color: #FFE81F;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    transform: rotateX(5deg);
+}
+
+.scrollingTxt{
+    animation: Yscrolling 40s infinite;
+}
+
+.scrollingTxt p{
+    font-weight: 700;
+    font-size: xx-large;
+}
+
+h1{
+    font-size: xx-large;
+    margin-bottom: 80px;
+}
+
+h2{
+    font-size: large;
+}
+
+h3{
+    font-size: x-large;
+    margin-bottom: 50px;
+}
+
+@keyframes Yscrolling {
+    from{
+        transform: translateY(50%);
+    }
+    to{
+        transform: translateY(-100%);
+    }
+}
